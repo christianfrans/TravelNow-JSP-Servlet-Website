@@ -1,0 +1,159 @@
+* {
+    outline: none;
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    color: #222;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    background: url(https://farm9.staticflickr.com/8483/8184721542_76a6c07084_b.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+
+#login-box {
+    position: relative;
+    margin: 5% auto;
+    width: 600px;
+    height: 400px;
+    background: rgba(0, 0, 0, 0.5);
+    color: #FFF;
+    border-radius: 2px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+	top: 75px;
+}
+
+.left {
+    position: absolute;
+    top: 0;
+    left: 0;
+    box-sizing: border-box;
+    padding: 40px;
+    width: 300px;
+    height: 400px;
+}
+.right {
+    position: absolute;
+    top: 0;
+    right: 0;
+    box-sizing: border-box;
+    padding: 40px;
+    width: 300px;
+    height: 400px;
+    background: rgba(0, 0, 0, 0.5);
+    color: seashell;
+    background-size: cover;
+    background-position: center;
+    border-radius: 0 2px 2px 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.right .logo {
+    margin: 30px;
+}
+
+.left .forgot {
+    font-family: Poppins-Regular;
+    font-size: 14px;
+    line-height: 1.7;
+    color: darkgray;
+    margin-bottom: 10px;
+    margin-left: 60px;
+    transition: all 0.4s;
+    -webkit-transition: all 0.4s;
+    -o-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    text-decoration: none;
+}
+
+.left .forgot:focus {
+    outline: none !important;
+}
+
+.left .forgot:hover {
+    text-decoration: none;
+    color: red;
+}
+
+.left .create {
+    text-align: center;
+    font-size: 14px;
+    line-height: 1.7;
+    color: aliceblue;
+    margin-left: 30px;
+    padding: 10px;
+    transition: all 0.4s;
+    -webkit-transition: all 0.4s;
+    -o-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    text-decoration: none;
+}
+
+.left .create:focus {
+    outline: none !important;
+}
+
+.left .create:hover {
+    text-decoration: none;
+    color: darksalmon
+}
+
+input[type="text"],
+input[type="password"] {
+    display: block;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    padding: 4px;
+    width: 220px;
+    height: 32px;
+    border: none;
+    border-bottom: 1px solid #AAA;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    transition: 0.2s ease;
+}
+
+input[type="texts"]:focus,
+input[type="password"]:focus {
+    border-bottom: 2px solid #16a085;
+    color: #16a085;
+    transition: 0.2s ease;
+}
+
+input[type="submit"] {
+    margin-top: 15px;
+    width: 120px;
+    height: 32px;
+    background: #16a085;
+    border: none;
+    border-radius: 2px;
+    color: #FFF;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    text-transform: uppercase;
+    transition: 0.1s ease;
+    cursor: pointer;
+	position:  relative;
+	left: 50px
+}
+
+input[type="submit"]:hover,
+input[type="submit"]:focus {
+    opacity: 0.8;
+    background: lawngreen;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+    transition: 0.1s ease;
+}
+
+input[type="submit"]:active {
+    opacity: 1;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.4);
+    transition: 0.1s ease;
+}
